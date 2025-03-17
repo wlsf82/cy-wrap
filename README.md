@@ -1,5 +1,7 @@
 # cy-wrap
 
+[![CI](https://github.com/wlsf82/cy-wrap/actions/workflows/ci.yml/badge.svg)](https://github.com/wlsf82/cy-wrap/actions/workflows/ci.yml)
+
 Sample project to demonstrate the [`cy.wrap`](https://docs.cypress.io/api/commands/wrap) Cypress command.
 
 ## Pre-requirements
