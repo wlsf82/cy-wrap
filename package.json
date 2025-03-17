@@ -1,0 +1,16 @@
+{
+  "name": "cy-wrap",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate the `cy.wrap` Cypress command.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
