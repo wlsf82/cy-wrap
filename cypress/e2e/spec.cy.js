@@ -77,7 +77,7 @@ describe('cy.wrap', () => {
     cy.wrap(obj).invoke('fn').should('be.equal', 'Yo!')
   })
 
-  it('checks every type of service', () => {
+  it('checks every type of service', { viewportHeight: 880 }, () => {
     cy.visit('https://tat-csc.s3.sa-east-1.amazonaws.com/index.html')
 
     cy.get('#support-type')
