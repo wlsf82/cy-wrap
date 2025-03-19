@@ -1,4 +1,16 @@
 describe('cy.wrap', () => {
+  it('asserts 1 is a number', () => {
+    cy.wrap(1).should('be.a', 'number')
+  })
+
+  it('asserts "Rachel Green" is a string', () => {
+    cy.wrap('Rachel Green').should('be.a', 'string')
+  })
+
+  it('asserts false is a boolean', () => {
+    cy.wrap(false).should('be.a', 'boolean')
+  })
+
   it('asserts an array is empty', () => {
     cy.wrap([]).should('be.empty')
   })
