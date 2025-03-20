@@ -92,7 +92,7 @@ describe('cy.wrap', () => {
   it('asserts on what a promise resolves to', () => {
     const myPromise = new Promise(resolve => setTimeout(() => resolve('Friends'), 2000))
     
-    cy.wrap(myPromize).should('be.equal', 'Friends')
+    cy.wrap(myPromise).should('be.equal', 'Friends')
   })
 
   it('checks every type of service', { viewportHeight: 880 }, () => {
