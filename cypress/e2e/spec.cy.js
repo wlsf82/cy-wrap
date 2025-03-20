@@ -88,6 +88,12 @@ describe('cy.wrap', () => {
 
     cy.wrap(obj).invoke('fn').should('be.equal', 'Yo!')
   })
+  
+  it('asserts on what a promise resolves to', () => {
+    const myPromise = new Promise(resolve => setTimeout(() => resolve('Friends'), 2000))
+    
+    cy.wrap(myPromize).should('be.equal', 'Friends')
+  })
 
   it('checks every type of service', { viewportHeight: 880 }, () => {
     cy.visit('https://tat-csc.s3.sa-east-1.amazonaws.com/index.html')
