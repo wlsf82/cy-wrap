@@ -30,9 +30,9 @@ After running the tests in headless mode, you should see something like this:
 
        Spec                                              Tests  Passing  Failing  Pending  Skipped
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ ✔  spec.cy.js                               00:02       10       10        -        -        - │
+  │ ✔  spec.cy.js                               00:05       14       14        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    ✔  All specs passed!                        00:02       10       10        -        -        -
+    ✔  All specs passed!                        00:05       14       14        -        -        -
 
 ```
 
